@@ -32,7 +32,7 @@ h5{
     /* text-wrap: wrap; */
     
 }
-.container{
+.box-container{
     background-color: rgb(219, 219, 219);
     height: 60%;
     width: 80vw;
@@ -48,10 +48,10 @@ h5{
 
 @media screen and (min-width:560px) {
 
-    .container{
+    .box-container{
         background-color: rgb(222, 222, 221);
-        height: 85vh;
-        width: 100vw;
+        height: 60vh;
+        width: 75vw;
         /* border: 2px solid; */
         display: flex;
         flex-wrap: wrap;
